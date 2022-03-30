@@ -53,6 +53,10 @@ def k_m():
     try:
         mx = []
         while True:
+            """
+            strip用于去除字符串首尾的字符，默认是空格、\n、\t
+            注意只能去除首尾的
+            """
             m = sys.stdin.readline().strip()
             if m =='':
                 break
